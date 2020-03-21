@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Soholeh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="muhammad_solehudin">Muhammad Solehudin</string>
+    <string name="todo">TODO</string>
+    <string name="selesai">ADD</string>
+    <string name="desc">Nama      : Muhammad Solehudin \n\n
+                        NIM       : 175610047 \n\n
+                        Jurusan   : Sistem Informasi \n\n
+                        Umur      : 21 tahun \n\n
+                        Hobi      : Game, Sport, Movie \n\n
+                        Alamat    : Babadan Baru Banguntapan Bantul \n\n
+                        E-mail    : msolehudin130998@gmail.com \n\n
+                        No.Hp     : 081227917430 \n\n
+                        Twitter   : @soholeh \n\n
+                        Instagram : @soholeh \n\n
+                        GiHub     : @soholeh \n\n
+
+    </string>
+    <string name="desc2">Feeling good, like I should
+Went and took a walk around the neighbourhood
+Feeling blessed, never stressed
+Got that sunshine on my Sunday best \n\nEveryday can be a better day despite the challenge
+All you gotta do is leave it better than you found it
+Its gonna get difficult to stand but hold your balance
+I just say whatever cause there is no way around it cause \n\nEveryone falls down sometimes
+But you just gotta know itll all be fine
+Its ok, uhhuh, uh
+Its okay, its okay \n\nFeeling good, like I should
+Went and took a walk around the neighbourhood
+Feeling blessed, never stressed
+Got that sunshine on my Sunday best \n\nSomedays you wake up and nothing works you feel surrounded
+Gotta give your feet some gravity to get you grounded
+Keep good things inside your ears just…</string>
+</resources>

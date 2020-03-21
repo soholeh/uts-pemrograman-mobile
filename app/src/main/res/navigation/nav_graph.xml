@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.muhammad.solehudin.jetpacknavigation.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_inFragment"
+            app:destination="@id/inFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_liniearFragment"
+            app:destination="@id/liniearFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_consFragment"
+            app:destination="@id/consFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inFragment"
+        android:name="com.muhammad.solehudin.jetpacknavigation.InFragment"
+        android:label="fragment_in"
+        tools:layout="@layout/fragment_in" >
+        <action
+            android:id="@+id/action_inFragment_to_outFragment"
+            app:destination="@id/outFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/outFragment"
+        android:name="com.muhammad.solehudin.jetpacknavigation.OutFragment"
+        android:label="fragment_out"
+        tools:layout="@layout/fragment_out" />
+    <fragment
+        android:id="@+id/liniearFragment"
+        android:name="com.muhammad.solehudin.jetpacknavigation.LiniearFragment"
+        android:label="fragment_liniear"
+        tools:layout="@layout/fragment_liniear" >
+        <action
+            android:id="@+id/action_liniearFragment_to_mainFragment2"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/consFragment"
+        android:name="com.muhammad.solehudin.jetpacknavigation.ConsFragment"
+        android:label="fragment_cons"
+        tools:layout="@layout/fragment_cons" />
+</navigation>
