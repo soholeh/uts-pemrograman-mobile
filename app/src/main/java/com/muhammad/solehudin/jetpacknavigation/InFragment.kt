@@ -10,6 +10,7 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.fragment_in.*
 import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.fragment_out.*
 
 /**
  * A simple [Fragment] subclass.
@@ -30,6 +31,10 @@ class InFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         nav = Navigation.findNavController(view)
+
+        buttonKembali.setOnClickListener{
+            nav.navigate(R.id.action_inFragment_to_mainFragment)
+        }
 
         buttonSubmit.setOnClickListener{
             if (editText.text.toString().isNotEmpty()) {

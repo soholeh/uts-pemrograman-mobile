@@ -28,12 +28,22 @@
         <action
             android:id="@+id/action_inFragment_to_outFragment"
             app:destination="@id/outFragment" />
+        <action
+            android:id="@+id/action_inFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
     <fragment
         android:id="@+id/outFragment"
         android:name="com.muhammad.solehudin.jetpacknavigation.OutFragment"
         android:label="fragment_out"
-        tools:layout="@layout/fragment_out" />
+        tools:layout="@layout/fragment_out" >
+        <action
+            android:id="@+id/action_outFragment_to_inFragment"
+            app:destination="@id/inFragment" />
+        <action
+            android:id="@+id/action_outFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
     <fragment
         android:id="@+id/liniearFragment"
         android:name="com.muhammad.solehudin.jetpacknavigation.LiniearFragment"
@@ -47,5 +57,9 @@
         android:id="@+id/consFragment"
         android:name="com.muhammad.solehudin.jetpacknavigation.ConsFragment"
         android:label="fragment_cons"
-        tools:layout="@layout/fragment_cons" />
+        tools:layout="@layout/fragment_cons" >
+        <action
+            android:id="@+id/action_consFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 </navigation>
